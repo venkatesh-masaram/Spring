@@ -1,0 +1,27 @@
+package com.practices;
+
+public class Student {
+
+	private String name;
+	private int sid;
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getSid() {
+		return sid;
+	}
+	public void setSid(int sid) {
+		this.sid = sid;
+	}
+	/*@Override
+	public String toString() {
+		return "Student [name=" + name + ", sid=" + sid + "]";
+	}*/
+	
+	
+	
+}
